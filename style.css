@@ -1,0 +1,264 @@
+
+@font-face {
+  font-family: "Netflix";
+  src: url(font/NetflixSans-Light.otf);
+}
+@font-face {
+  font-family: "Bold";
+  src: url(font/NetflixSans-Bold.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+  height: 80vh;
+}
+
+.home {
+  text-align: left;
+  left: 39px;
+  position: relative;
+  position: relative;
+  top: -580px;
+  font-size: 29px;
+}
+
+.net {
+  top: 41px;
+  position: relative;
+  font-family: "Bold";
+}
+
+.ori {
+  top: 3px;
+  position: relative;
+  left: 119px;
+  font-family: "Netflix";
+}
+
+ul {
+  list-style-type: none;
+
+  display: flex;
+  align-items: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.imghome {
+  display: inline-block;
+  position: relative;
+}
+
+.navbar {
+  position: absolute;
+  top: 0px;
+  font-family: "Netflix";
+}
+
+.gener {
+  flex-direction: row;
+  display: flex;
+}
+
+.star {
+  color: green;
+  margin-right: 15px;
+}
+
+.gener p {
+  margin-right: 15px;
+  margin-top: 15px;
+  font-family: "Netflix";
+}
+
+.info {
+  position: relative;
+  top: 20px;
+  font-family: "Netflix";
+  color: dimgray;
+}
+
+.inf {
+  position: relative;
+  top: 44px;
+  color: dimgray;
+  font-family: "Netflix";
+}
+
+.fl {
+  position: relative;
+  left: 630px;
+  top: 6px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 100%);
+  overflow: hidden;
+  scroll-behavior: smooth;
+  top: -400px;
+  position: relative;
+}
+.wrapper section {
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  margin: 20px 0;
+}
+.wrapper section .item {
+  position: relative;
+  padding: 0 0px;
+  transition: 250ms all;
+  margin-right: 5px;
+}
+.wrapper section .item:hover {
+  margin: 0 40px;
+  transform: scale(1.2);
+}
+.wrapper section .item .heading {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+}
+.wrapper section .item .duration {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  color: #fff;
+}
+.wrapper section .arrow__btn {
+  position: absolute;
+  color: #fff;
+  text-decoration: none;
+  font-size: 6em;
+  background: black;
+  width: 80px;
+  padding: 20px;
+  text-align: center;
+  z-index: 1;
+}
+.wrapper section .left-arrow {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+}
+.wrapper section .right-arrow {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+}
+
+.item img {
+  width: 350px;
+}
+.pp {
+  font-family: Bold;
+  font-size: 25px;
+  position: relative;
+  top: -410px;
+  margin: 0px 50px;
+}
+
+p.pr {
+  font-family: Bold;
+  font-size: 25px;
+  position: relative;
+  top: -410px;
+  margin: 0px 50px;
+}
+
+.watched1 {
+  display: grid;
+  grid-template-columns: repeat(3, 100%);
+  overflow: hidden;
+  scroll-behavior: smooth;
+  top: -400px;
+  position: relative;
+}
+
+.watched1 section {
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  margin: 20px 0;
+}
+
+.watched1 section .item1 {
+  position: relative;
+  padding: 0 0px;
+  transition: 250ms all;
+  margin-right: 5px;
+}
+
+.watched1 section .item1:hover {
+  margin: 0 40px;
+  transform: scale(1.2);
+}
+
+.watched1 section .item1 .heading {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+}
+
+.watched1 section .item .duration {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  color: #fff;
+}
+
+.watched1 section .arrow__btn {
+  position: absolute;
+  color: #fff;
+  text-decoration: none;
+  font-size: 6em;
+  background: black;
+  width: 80px;
+  padding: 20px;
+  text-align: center;
+  z-index: 1;
+}
+
+.watched1 section .left-arrow {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+}
+
+.watched1 section .right-arrow {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%);
+}
+
+.item1 img {
+  width: 350px;
+}
+
+.imghome img{
+
+  width: 1500px;
+
+}
